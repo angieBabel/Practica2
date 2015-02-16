@@ -7,7 +7,7 @@
 </head>
 <body>
 	<?php
-		echo "<h1> Bienvenido ".$nombre. "</h1>";
+		echo "<h1> Vista Dos </h1>";
 		echo "<h2>Hola mundo </h2>";
 		echo "<h2> Hoy es:".date("d-m-Y")."</h2> <br>";
 	?>

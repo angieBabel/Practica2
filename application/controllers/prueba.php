@@ -2,8 +2,8 @@
 
 class Prueba extends CI_Controller {
 
-	function _construct(){
-		parent::_construct();
+	function __construct(){
+		parent::__construct();
 		#Carga de librerias
 		#Carga de helpers
 	}
@@ -12,6 +12,21 @@ class Prueba extends CI_Controller {
 	{
 		$datos['nombre']="Angelica Barreda";
 		$this->load->view('inicio',$datos);
+	}
+
+	public function opcion1()
+	{
+		$this->load->view('vista1');
+	}
+
+	public function opcion2()
+	{
+		$this->load->view('vista2');
+	}
+
+	public function opcion3()
+	{
+		$this->load->view('vista3');
 	}
 }
 
