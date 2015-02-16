@@ -2,6 +2,12 @@
 
 class Prueba extends CI_Controller {
 
+	function _construct(){
+		parent::_construct();
+		#Carga de librerias
+		#Carga de helpers
+	}
+
 	public function index()
 	{
 		$datos['nombre']="Angelica Barreda";
