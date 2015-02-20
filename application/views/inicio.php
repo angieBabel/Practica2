@@ -13,6 +13,15 @@
 		include "/secciones/pie.php";
 	?>
 
+	<div class="row">
+		<div class="col-md-8 col-sm-4 azul">
+			angie
+		</div>
+		<div class="col-md-4 col-sm-8 rojo">
+			angie
+		</div>
+	</div>
+
 </div>
 <!--Clases .
 	id #-->
