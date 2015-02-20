@@ -1,5 +1,6 @@
 
-	<?php
+<div class="container">
+		<?php
 		include "/secciones/cabecera.php";
 		echo "<h1> Bienvenido ".$nombre. "</h1>";
 		echo "<h2>Hola mundo </h2>";
@@ -12,3 +13,6 @@
 		include "/secciones/pie.php";
 	?>
 
+</div>
+<!--Clases .
+	id #-->
